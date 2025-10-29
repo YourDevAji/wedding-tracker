@@ -3,7 +3,7 @@ const SESSION_STORAGE_KEY = 'wedding_admin_session';
 const SESSION_TIMESTAMP_KEY = 'wedding_admin_session_timestamp';
 // Initialize Supabase
 const supabaseUrl = 'https://pgflfafjylxxnlyiztoe.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBnZmxmYWZqeWx4eG5seWl6dG9lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3NTYxMjIsImV4cCI6MjA3NzMzMjEyMn0.mqiBN8biRUXW_0dH9kXCCYrttJX3Vf2bnNi3Y-W8HroeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBnZmxmYWZqeWx4eG5seWl6dG9lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3NTYxMjIsImV4cCI6MjA3NzMzMjEyMn0.mqiBN8biRUXW_0dH9kXCCYrttJX3Vf2bnNi3Y-W8Hro';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBnZmxmYWZqeWx4eG5seWl6dG9lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE3NTYxMjIsImV4cCI6MjA3NzMzMjEyMn0.mqiBN8biRUXW_0dH9kXCCYrttJX3Vf2bnNi3Y-W8Hro';
 const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
 // DOM Elements
 const loginSection = document.getElementById('loginSection');
